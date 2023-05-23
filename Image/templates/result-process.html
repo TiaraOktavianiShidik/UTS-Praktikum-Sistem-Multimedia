@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Processing Result</title>
+    <link rel="stylesheet" href="./static/style/result-process.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Image Processing Result</h1>
+    <div class="content">
+        <div class="img-ori">
+            <h2>Original Image:</h2>
+            <img src="{{ url_for('static', filename='uploads/' + original_image) }}" alt="Original Image" width="500" length="500">
+        </div>
+        <div class="img-processed">
+            <h2>Processed Image:</h2>
+            <img src="{{ url_for('static', filename='uploads/' + processed_image) }}" alt="Processed Image" width="500" length="500">
+        </div>
+    </div>
+</body>
+</html>

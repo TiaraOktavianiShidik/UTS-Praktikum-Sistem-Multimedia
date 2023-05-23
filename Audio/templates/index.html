@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Compression</title>
+    <link rel="stylesheet" href="./static/style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-page">
+        <h1>Website Audio Processing & Compression</h1>
+    </div>
+    <div class="content">
+        <div class="audio-compress">
+            <h2>Audio Compression</h2>
+            <form action="/compress" method="POST" enctype="multipart/form-data">
+                <input type="file" name="audio" accept="audio/*">
+                <input id="submit" type="submit" value="Compress">
+            </form>
+        </div>
+        <div class="audio-process">
+            <h2>Audio Processing</h2>
+            <form action="/process" method="POST" enctype="multipart/form-data">
+                <input type="file" name="audio" accept="audio/*">
+                <input id="submit" type="submit" value="Process">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

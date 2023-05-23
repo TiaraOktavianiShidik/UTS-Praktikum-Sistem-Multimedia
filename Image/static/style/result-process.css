@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background: #F1F6F9;
+    font-family: 'Nunito', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 0;
+    padding-top: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+img {
+    padding-top: 20px;
+}
+
+.img-ori, .img-processed {
+    text-align: center;
+    padding: 20px;
+    padding-top: 20px;
+    background-color: #394867;
+}
+
+.img-processed h2, 
+.img-processed img,
+.img-ori h2,
+.img-ori img {
+    background-color: #394867;
+    color: whitesmoke;
+}

@@ -28,7 +28,7 @@ Gambar yang sudah diupload dan gambar hasil kompresi akan masuk ke folder 'uploa
 
 ![img-result-process](https://github.com/TiaraOktavianiShidik/UTS-Praktikum-Sistem-Multimedia/assets/76018503/088d1f95-2ff0-464c-b356-53cec110a613)
 
-Gambar dilakukan proses dengan diberikan filter blur. 
+Gambar dilakukan proses dengan diberikan filter gaussian blur radius 10. 
 
 Gambar yang sudah diupload dan gambar hasil processing akan masuk ke folder 'uploads'.
 
@@ -54,6 +54,6 @@ Audio yang sudah diupload dan audio hasil kompresi akan masuk ke folder 'uploads
 
 ![audio-result-process](https://github.com/TiaraOktavianiShidik/UTS-Praktikum-Sistem-Multimedia/assets/76018503/7f3ce9bd-a2ab-4f5b-97df-43b9822e666c)
 
-Audio dilakukan proses dengan diberikan efek time stretch dengan rate 0.8. 
+Audio dilakukan proses yaitu perubahan pitch menggunakan algoritma Time Stretching. 
 
 Audio yang sudah diupload dan audio hasil processing akan masuk ke folder 'uploads'.
